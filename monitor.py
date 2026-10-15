@@ -13,7 +13,7 @@ import time
 import random
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, parse_qsl
 
 import yaml
 from bs4 import BeautifulSoup
@@ -52,16 +52,20 @@ def log(*a):
     print(datetime.now().strftime("%H:%M:%S"), *a, flush=True)
 
 
-def parse_price(text):
+def parse_price(text, menor=False):
+    """Primeiro preço do texto; com menor=True, o mais baixo (cartões com preço riscado após descida)."""
+    vals = []
     for rx in (PRICE_RE, PRICE_RE2):
         for m in rx.finditer(text):
             try:
                 v = int(re.sub(r"\D", "", m.group(1)))
             except ValueError:
                 continue
-            if 20000 <= v <= 20000000:  # ignora rendas, condomínio, etc.
-                return v
-    return None
+            if 20000 <= v <= 20000000:  # ignora rendas, condomínio, €/m², etc.
+                if not menor:
+                    return v
+                vals.append(v)
+    return min(vals) if vals else None
 
 
 def parse_rooms(text):
@@ -160,6 +164,15 @@ BROWSER = Browser()
 
 
 # ---------------------------------------------------------------- parsers
+def real_href(href):
+    """Alguns sites (ex.: Casa Sapo) embrulham o link num contador: ...counter.aspx?l=<link real>."""
+    if "?" in href:
+        for k, v in parse_qsl(urlparse(href).query):
+            if k.lower() in ("l", "url", "u", "redirect", "dest") and v.startswith("http"):
+                return v
+    return href
+
+
 def parse_imovirtual_json(html, base):
     """O Imovirtual (Next.js) traz os resultados num JSON dentro da página."""
     soup = BeautifulSoup(html, "html.parser")
@@ -209,7 +222,7 @@ def parse_generic(html, base, link_re):
     pat = link_re or DEFAULT_LINK
     candidatos = {}
     for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
+        href = real_href(a["href"].strip())
         if href.startswith(("javascript:", "mailto:", "tel:", "#")):
             continue
         full = urljoin(base, href.split("#")[0])
@@ -242,9 +255,10 @@ def parse_generic(html, base, link_re):
                 break
             outros = 0
             for b in parent.find_all("a", href=True):
-                mm = pat.search(b["href"]) or pat.search(urljoin(base, b["href"]))
+                bh = real_href(b["href"])
+                mm = pat.search(bh) or pat.search(urljoin(base, bh))
                 if mm:
-                    other = next((g for g in mm.groups() if g), None) or urljoin(base, b["href"])
+                    other = next((g for g in mm.groups() if g), None) or urljoin(base, bh)
                     if other != lid and other in ids:
                         outros += 1
                         break
@@ -260,7 +274,7 @@ def parse_generic(html, base, link_re):
         out.append({
             "id": lid,
             "title": re.sub(r"\s+", " ", title)[:140],
-            "price": parse_price(card_text),
+            "price": parse_price(card_text, menor=True),
             "rooms": parse_rooms(title) or parse_rooms(full.replace("-", " ")) or parse_rooms(card_text),
             "url": full,
             "where": "",
@@ -291,29 +305,36 @@ def scrape_site(site, cfg):
     usar_browser = bool(cfg.get("browser"))
     all_items, errors = {}, []
     for url in cfg.get("urls") or []:
-        try:
-            status, html = BROWSER.get(url) if usar_browser else fetch(url)
-        except Exception as e:
-            msg = re.search(r"net::\w+|Timeout", str(e))
-            errors.append(msg.group(0) if msg else type(e).__name__)
-            continue
-        if status not in (200, 0):
-            errors.append(f"HTTP {status}")
-            continue
-        items = parse_imovirtual_json(html, url) if site == "imovirtual" else None
-        if items is None:
-            items = parse_generic(html, url, link_re)
-        # um cartão sem preço normalmente é um falso positivo (menu, rodapé…)
-        items = [it for it in items if it["price"] is not None]
-        log(f"  {len(items)} anúncios em {url[:80]}")
-        if not items:
-            low = html.lower()
-            if any(k in low for k in ("captcha", "datadome", "are you a robot", "cf-challenge", "just a moment")):
-                errors.append("bloqueado (captcha)")
+        modos = [True] if usar_browser else [False, True]  # sem browser falhou? tenta com browser
+        for com_browser in modos:
+            erro, items = None, []
+            try:
+                status, html = BROWSER.get(url) if com_browser else fetch(url)
+            except Exception as e:
+                msg = re.search(r"net::\w+|Timeout", str(e))
+                erro = msg.group(0) if msg else type(e).__name__
             else:
-                errors.append("0 anúncios lidos")
-        for it in items:
-            all_items[it["id"]] = it
+                if status not in (200, 0):
+                    erro = f"HTTP {status}"
+                else:
+                    items = parse_imovirtual_json(html, url) if site == "imovirtual" else None
+                    if items is None:
+                        items = parse_generic(html, url, link_re)
+                    # um cartão sem preço normalmente é um falso positivo (menu, rodapé…)
+                    items = [it for it in items if it["price"] is not None]
+                    if not items:
+                        low = html.lower()
+                        bloq = ("captcha", "datadome", "are you a robot", "cf-challenge", "just a moment")
+                        erro = "bloqueado (captcha)" if any(k in low for k in bloq) else "0 anúncios lidos"
+            log(f"  {'[browser] ' if com_browser else ''}{len(items)} anúncios em {url[:80]}"
+                + (f" — {erro}" if erro else ""))
+            if items:
+                if com_browser:
+                    usar_browser = True
+                for it in items:
+                    all_items[it["id"]] = it
+                break
+            errors.append(erro)
         time.sleep(random.uniform(1, 3))
     err = None if all_items else (", ".join(sorted(set(errors))) or "sem resultados")
     return list(all_items.values()), err, usar_browser

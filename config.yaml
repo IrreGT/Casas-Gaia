@@ -40,13 +40,13 @@ sites:
     nome: Supercasa
     link: '/i(\d{5,})(?:$|[/?#])'
     urls:
-      - "https://supercasa.pt/comprar-casas/vila-nova-de-gaia"
+      - "https://supercasa.pt/comprar-casas/vila-nova-de-gaia/com-preco-min-500000,preco-max-650000?ordem=atualizado-desc"
 
   casasapo:
     nome: Casa Sapo
-    browser: true
+    link: 'casa\.sapo\.pt/(comprar-[^"''?#&]+?)\.html'
     urls:
-      - "https://casa.sapo.pt/comprar-casas/vila-nova-de-gaia/"
+      - "https://casa.sapo.pt/comprar-casas/mais-recentes/vila-nova-de-gaia/"
 
   trovit:
     nome: Trovit (agregador)
@@ -59,8 +59,7 @@ sites:
     nome: OLX
     link: '/d/anuncio/[^"''?#]*?-(ID[0-9A-Za-z]+)\.html'
     urls:
-      - "https://www.olx.pt/imoveis/apartamento-casa-a-venda/vila-nova-de-gaia/?search%5Bfilter_float_price:from%5D=500000&search%5Bfilter_float_price:to%5D=650000&search%5Border%5D=created_at:desc"
-      - "https://www.olx.pt/imoveis/casas-moradias-para-arrendar-vender/vila-nova-de-gaia/?search%5Bfilter_float_price:from%5D=500000&search%5Bfilter_float_price:to%5D=650000&search%5Border%5D=created_at:desc"
+      - "https://www.olx.pt/imoveis/vila-nova-de-gaia/?search%5Bfilter_float_price:from%5D=500000&search%5Bfilter_float_price:to%5D=650000&search%5Border%5D=created_at:desc"
 
   custojusto:
     nome: CustoJusto

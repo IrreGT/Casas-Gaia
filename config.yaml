@@ -48,12 +48,6 @@ sites:
     urls:
       - "https://casa.sapo.pt/comprar-casas/mais-recentes/vila-nova-de-gaia/"
 
-  trovit:
-    nome: Trovit (agregador)
-    browser: true
-    urls:
-      - "https://casa.trovit.pt/casa-vila-nova-gaia-portugal"
-
   # ---------- Classificados ----------
   olx:
     nome: OLX
@@ -82,38 +76,47 @@ sites:
     urls:
       - "https://www.era.pt/comprar/vila-nova-de-gaia"
 
-  century21:
-    nome: Century 21
-    browser: true
-    urls:
-      - "https://www.century21.pt/comprar/vila-nova-de-gaia/"
+  # ---------- Desligados (davam HTTP 404 / 401) ----------
+  # Para ligar uma imobiliária: faz a pesquisa no site (comprar, Vila Nova de Gaia),
+  # copia o endereço da barra para o "urls" e tira o "# " do início das linhas do bloco.
+  # trovit:
+  #   nome: Trovit (agregador)
+  #   browser: true
+  #   urls:
+  #     - "https://casa.trovit.pt/casa-vila-nova-gaia-portugal"
 
-  kw:
-    nome: KW Portugal
-    browser: true
-    urls:
-      - "https://www.kwportugal.pt/imoveis/comprar/vila-nova-de-gaia"
+  # century21:
+  #   nome: Century 21
+  #   browser: true
+  #   urls:
+  #     - "https://www.century21.pt/comprar/vila-nova-de-gaia/"
 
-  zome:
-    nome: Zome
-    browser: true
-    urls:
-      - "https://www.zome.pt/pt/comprar/vila-nova-de-gaia"
+  # kw:
+  #   nome: KW Portugal
+  #   browser: true
+  #   urls:
+  #     - "https://www.kwportugal.pt/imoveis/comprar/vila-nova-de-gaia"
 
-  decisoes:
-    nome: Decisões e Soluções
-    browser: true
-    urls:
-      - "https://www.decisoesesolucoes.com/imoveis/comprar/vila-nova-de-gaia"
+  # zome:
+  #   nome: Zome
+  #   browser: true
+  #   urls:
+  #     - "https://www.zome.pt/pt/comprar/vila-nova-de-gaia"
 
-  iad:
-    nome: iad Portugal
-    browser: true
-    urls:
-      - "https://www.iadportugal.pt/comprar/vila-nova-de-gaia"
+  # decisoes:
+  #   nome: Decisões e Soluções
+  #   browser: true
+  #   urls:
+  #     - "https://www.decisoesesolucoes.com/imoveis/comprar/vila-nova-de-gaia"
 
-  engelvoelkers:
-    nome: Engel & Völkers
-    browser: true
-    urls:
-      - "https://www.engelvoelkers.com/pt/pt/comprar/vila-nova-de-gaia"
+  # iad:
+  #   nome: iad Portugal
+  #   browser: true
+  #   urls:
+  #     - "https://www.iadportugal.pt/comprar/vila-nova-de-gaia"
+
+  # engelvoelkers:
+  #   nome: Engel & Völkers
+  #   browser: true
+  #   urls:
+  #     - "https://www.engelvoelkers.com/pt/pt/comprar/vila-nova-de-gaia"

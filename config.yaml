@@ -1,0 +1,120 @@
+# ------------------------------------------------------------
+#  Critérios de pesquisa
+# ------------------------------------------------------------
+filtros:
+  preco_min: 500000
+  preco_max: 650000
+  tipologia_min: 3      # T3
+  tipologia_max: 5      # T5
+
+# Servidor ntfy (o tópico vai no secret NTFY_TOPIC do GitHub)
+ntfy_server: https://ntfy.sh
+
+# ------------------------------------------------------------
+#  Sites a vigiar
+#
+#  urls     -> páginas de resultados (Gaia, de preferência ordenadas
+#              por "mais recentes"). O script volta sempre a filtrar
+#              preço e tipologia, por isso um URL mais largo também serve.
+#  browser  -> true para sites que só mostram os anúncios com JavaScript
+#              (abre a página num Chrome real).
+#  link     -> (opcional) expressão que identifica o link de um anúncio.
+#              Se não for indicada, usa uma deteção automática.
+#
+#  Se um site der ❌ no teste: abre-o no browser, faz a pesquisa
+#  (Vila Nova de Gaia, comprar, preço, T3-T5, mais recentes),
+#  copia o endereço da barra e cola-o aqui no lugar do antigo.
+#  Para acrescentar outra imobiliária, copia um bloco e muda nome/url.
+# ------------------------------------------------------------
+sites:
+
+  # ---------- Portais ----------
+  imovirtual:
+    nome: Imovirtual
+    link: '/pt/anuncio/[^"''?#]*?-(ID[0-9A-Za-z]+)'
+    urls:
+      - "https://www.imovirtual.com/pt/resultados/comprar/apartamento/porto/vila-nova-de-gaia?priceMin=500000&priceMax=650000&roomsNumber=%5BTHREE%2CFOUR%2CFIVE%5D&by=LATEST&direction=DESC"
+      - "https://www.imovirtual.com/pt/resultados/comprar/moradia/porto/vila-nova-de-gaia?priceMin=500000&priceMax=650000&roomsNumber=%5BTHREE%2CFOUR%2CFIVE%5D&by=LATEST&direction=DESC"
+
+  supercasa:
+    nome: Supercasa
+    link: '/i(\d{5,})(?:$|[/?#])'
+    urls:
+      - "https://supercasa.pt/comprar-casas/vila-nova-de-gaia"
+
+  casasapo:
+    nome: Casa Sapo
+    browser: true
+    urls:
+      - "https://casa.sapo.pt/comprar-casas/vila-nova-de-gaia/"
+
+  trovit:
+    nome: Trovit (agregador)
+    browser: true
+    urls:
+      - "https://casa.trovit.pt/casa-vila-nova-gaia-portugal"
+
+  # ---------- Classificados ----------
+  olx:
+    nome: OLX
+    link: '/d/anuncio/[^"''?#]*?-(ID[0-9A-Za-z]+)\.html'
+    urls:
+      - "https://www.olx.pt/imoveis/apartamento-casa-a-venda/vila-nova-de-gaia/?search%5Bfilter_float_price:from%5D=500000&search%5Bfilter_float_price:to%5D=650000&search%5Border%5D=created_at:desc"
+      - "https://www.olx.pt/imoveis/casas-moradias-para-arrendar-vender/vila-nova-de-gaia/?search%5Bfilter_float_price:from%5D=500000&search%5Bfilter_float_price:to%5D=650000&search%5Border%5D=created_at:desc"
+
+  custojusto:
+    nome: CustoJusto
+    link: '/imobiliario/[^"''?#]*?-(\d{6,})(?:$|[/?#])'
+    urls:
+      - "https://www.custojusto.pt/porto/vila-nova-de-gaia/imobiliario/moradias"
+      - "https://www.custojusto.pt/porto/vila-nova-de-gaia/imobiliario/apartamentos-venda"
+
+  # ---------- Imobiliárias ----------
+  remax:
+    nome: RE/MAX
+    browser: true
+    link: '/imoveis/[^"''?#]+/(\d+-\d+)'
+    urls:
+      - "https://remax.pt/pt/comprar/imoveis/habitacao/r/r/vila-nova-de-gaia/t?s=%7B%7D&p=1&o=-PublishDate"
+
+  era:
+    nome: ERA
+    browser: true
+    urls:
+      - "https://www.era.pt/comprar/vila-nova-de-gaia"
+
+  century21:
+    nome: Century 21
+    browser: true
+    urls:
+      - "https://www.century21.pt/comprar/vila-nova-de-gaia/"
+
+  kw:
+    nome: KW Portugal
+    browser: true
+    urls:
+      - "https://www.kwportugal.pt/imoveis/comprar/vila-nova-de-gaia"
+
+  zome:
+    nome: Zome
+    browser: true
+    urls:
+      - "https://www.zome.pt/pt/comprar/vila-nova-de-gaia"
+
+  decisoes:
+    nome: Decisões e Soluções
+    browser: true
+    urls:
+      - "https://www.decisoesesolucoes.com/imoveis/comprar/vila-nova-de-gaia"
+
+  iad:
+    nome: iad Portugal
+    browser: true
+    urls:
+      - "https://www.iadportugal.pt/comprar/vila-nova-de-gaia"
+
+  engelvoelkers:
+    nome: Engel & Völkers
+    browser: true
+    urls:
+      - "https://www.engelvoelkers.com/pt/pt/comprar/vila-nova-de-gaia"

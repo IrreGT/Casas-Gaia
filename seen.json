@@ -2,7 +2,7 @@
  "arrancou": true,
  "health": {
   "casasapo": {
-   "falhas": 2,
+   "falhas": 3,
    "ultimo_alerta": ""
   },
   "century21": {
@@ -38,15 +38,15 @@
    "ultimo_alerta": ""
   },
   "olx": {
-   "falhas": 18,
-   "ultimo_alerta": "2026-10-17"
+   "falhas": 19,
+   "ultimo_alerta": "2026-10-18"
   },
   "remax": {
    "falhas": 0,
    "ultimo_alerta": ""
   },
   "supercasa": {
-   "falhas": 2,
+   "falhas": 3,
    "ultimo_alerta": ""
   },
   "trovit": {
@@ -396,7 +396,8 @@
    "9000062228": "2026-10-16",
    "9000062229": "2026-10-17",
    "9000062230": "2026-10-17",
-   "9000062231": "2026-10-17"
+   "9000062231": "2026-10-17",
+   "9000062232": "2026-10-18"
   },
   "remax": {
    "120251435-10": "2026-10-15",

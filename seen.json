@@ -2,7 +2,7 @@
  "arrancou": true,
  "health": {
   "casasapo": {
-   "falhas": 6,
+   "falhas": 0,
    "ultimo_alerta": ""
   },
   "century21": {
@@ -38,7 +38,7 @@
    "ultimo_alerta": ""
   },
   "olx": {
-   "falhas": 29,
+   "falhas": 30,
    "ultimo_alerta": "2026-10-19"
   },
   "remax": {
@@ -46,7 +46,7 @@
    "ultimo_alerta": ""
   },
   "supercasa": {
-   "falhas": 2,
+   "falhas": 0,
    "ultimo_alerta": ""
   },
   "trovit": {
@@ -60,6 +60,7 @@
  },
  "seen": {
   "casasapo": {
+   "comprar-andar-de-moradia-t2-vila-nova-de-gaia-canidelo-2f32c348-cbe7-11f1-9c13-060000000051": "2026-10-19",
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-1c04b7fd-c8af-11f1-90a1-060000000056": "2026-10-16",
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-26e67dd2-c8b0-11f1-90a1-060000000056": "2026-10-16",
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-43999cd1-c8a8-11f1-90a1-060000000056": "2026-10-16",
@@ -84,32 +85,51 @@
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-5245d2b0-c9f5-11f1-9aaf-060000000054": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-a7664887-ca10-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-e3dfe3dc-ca2b-11f1-bc59-060000000052": "2026-10-17",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-f9466760-cbbe-11f1-bc59-060000000052": "2026-10-19",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-fdb40a1b-cbbf-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-gulpilhares-8967510a-ca0b-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-mafamude-602f5003-c9ca-11f1-90a1-060000000056": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-mafamude-b19aba10-0c21-4b4a-8868-2feba8521b0c": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-pedroso-8e1f3b19-ca0b-11f1-9aaf-060000000054": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-40320ab4-ca2c-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-49d2456a-ca19-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-4ca5783c-ca2c-11f1-bc59-060000000052": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-5052b904-cbd7-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-7604ed2a-ca2c-11f1-bc59-060000000052": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-77de872e-cbbf-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-8a0184d5-ca10-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-96822e07-ca10-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b0a66cde-ca10-11f1-bc59-060000000052": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b9f20ca1-cbbd-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-be47e9f1-c9f5-11f1-9aaf-060000000054": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-c20228b0-cbbf-11f1-bc59-060000000052": "2026-10-19",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-e15ab3de-cbbe-11f1-bc59-060000000052": "2026-10-19",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-ee06f0e1-cbbe-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f10250e6-ca2b-11f1-bc59-060000000052": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f1a29396-cbbf-11f1-bc59-060000000052": "2026-10-19",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f3406fee-cbbd-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-do-paraiso-81d83fcd-c923-11f1-9aaf-060000000054": "2026-10-16",
    "comprar-apartamento-t3-vila-nova-de-gaia-arcozelo-01057a0a-ca2c-11f1-b6e5-060000000058": "2026-10-17",
    "comprar-apartamento-t3-vila-nova-de-gaia-arcozelo-e426cca7-ca2b-11f1-b6e5-060000000058": "2026-10-17",
    "comprar-apartamento-t3-vila-nova-de-gaia-arcozelo-f3497735-ca2b-11f1-b6e5-060000000058": "2026-10-17",
+   "comprar-apartamento-t3-vila-nova-de-gaia-canelas-e9e72981-7bfa-46fc-8384-cca488c856ed": "2026-10-19",
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-54bd7098-c8b8-11f1-b6e5-060000000058": "2026-10-16",
+   "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-662d590d-cbb3-11f1-9aaf-060000000054": "2026-10-19",
    "comprar-apartamento-t3-vila-nova-de-gaia-oliveira-do-douro-61d96391-c9f2-11f1-9aaf-060000000054": "2026-10-17",
+   "comprar-apartamento-t3-vila-nova-de-gaia-vilar-de-andorinho-86c434cf-cbc9-11f1-9a8d-060000000057": "2026-10-19",
    "comprar-apartamento-t4-vila-nova-de-gaia-gulpilhares-c8e827ed-c9f0-11f1-9a8d-060000000057": "2026-10-17",
    "comprar-apartamento-t4-vila-nova-de-gaia-madalena-5ea121b5-c942-11f1-9aaf-060000000054": "2026-10-16",
    "comprar-apartamento-t4-vila-nova-de-gaia-madalena-73574132-c8a8-11f1-9a8d-060000000057": "2026-10-16",
+   "comprar-moradia-geminada-t3-vila-nova-de-gaia-arcozelo-b608cf96-cba3-11f1-b6e5-060000000058": "2026-10-19",
+   "comprar-moradia-geminada-t3-vila-nova-de-gaia-madalena-f822a620-cb24-11f1-bc59-060000000052": "2026-10-19",
    "comprar-moradia-geminada-vila-nova-de-gaia-canidelo-6f015cff-6ef4-4870-b72d-fbab52b1fa44": "2026-10-16",
    "comprar-moradia-t2-vila-nova-de-gaia-canidelo-db689c31-c9f0-11f1-9a8d-060000000057": "2026-10-17",
+   "comprar-moradia-t3-vila-nova-de-gaia-grijo-f96d7537-cbdb-11f1-9aaf-060000000054": "2026-10-19",
    "comprar-moradia-t3-vila-nova-de-gaia-serzedo-afe91390-c923-11f1-9aaf-060000000054": "2026-10-16",
+   "comprar-moradia-t4-vila-nova-de-gaia-oliveira-do-douro-eb8f2fcf-cba1-11f1-9aaf-060000000054": "2026-10-19",
    "comprar-moradia-t4-vila-nova-de-gaia-vilar-do-paraiso-dee77f8e-ca0d-11f1-9aaf-060000000054": "2026-10-17",
-   "comprar-moradia-t5-vila-nova-de-gaia-madalena-6ffc0bda-c954-11f1-9a8d-060000000057": "2026-10-16"
+   "comprar-moradia-t5-vila-nova-de-gaia-madalena-6ffc0bda-c954-11f1-9a8d-060000000057": "2026-10-16",
+   "comprar-moradia-t5-vila-nova-de-gaia-pedroso-bfa47534-1144-4982-bd9a-d4565a063ca1": "2026-10-19"
   },
   "custojusto": {
    "35644864": "2026-10-15",
@@ -150,6 +170,10 @@
    "44483022": "2026-10-15",
    "44483034": "2026-10-15",
    "44486507": "2026-10-15",
+   "44644177": "2026-10-19",
+   "44644183": "2026-10-19",
+   "44719575": "2026-10-19",
+   "44719606": "2026-10-19",
    "44777517": "2026-10-16",
    "44846443": "2026-10-15",
    "44854322": "2026-10-18",
@@ -161,6 +185,7 @@
    "44903241": "2026-10-16",
    "44903953": "2026-10-17",
    "44907956": "2026-10-18",
+   "44909549": "2026-10-19",
    "44921654": "2026-10-15",
    "44952766": "2026-10-15",
    "44952870": "2026-10-15",
@@ -240,6 +265,9 @@
    "45201757": "2026-10-18",
    "45203328": "2026-10-19",
    "45203335": "2026-10-19",
+   "45203611": "2026-10-19",
+   "45203865": "2026-10-19",
+   "45204201": "2026-10-19",
    "45212310": "2026-10-15",
    "45214738": "2026-10-15",
    "45244827": "2026-10-15",
@@ -255,6 +283,9 @@
    "45351218": "2026-10-17",
    "45351224": "2026-10-17",
    "45360014": "2026-10-18",
+   "45364400": "2026-10-19",
+   "45364401": "2026-10-19",
+   "45364616": "2026-10-19",
    "45431284": "2026-10-15",
    "45431690": "2026-10-15",
    "45433584": "2026-10-15",
@@ -278,7 +309,10 @@
    "45442071": "2026-10-16",
    "45442917": "2026-10-17",
    "45443584": "2026-10-17",
-   "45445579": "2026-10-19"
+   "45445579": "2026-10-19",
+   "45446384": "2026-10-19",
+   "45446722": "2026-10-19",
+   "45446727": "2026-10-19"
   },
   "era": {
    "019260290": "2026-10-15",
@@ -288,8 +322,12 @@
    "042260145": "2026-10-16",
    "042260146": "2026-10-16",
    "049260145": "2026-10-15",
+   "066260085": "2026-10-19",
    "070260319": "2026-10-15",
+   "070260322": "2026-10-19",
+   "079260359": "2026-10-19",
    "094260057": "2026-10-16",
+   "094260059": "2026-10-19",
    "096260084": "2026-10-16",
    "102260184": "2026-10-15",
    "108260358": "2026-10-16",
@@ -307,11 +345,14 @@
    "279260091": "2026-10-16",
    "294260094": "2026-10-16",
    "294260095": "2026-10-16",
+   "309260058": "2026-10-19",
    "311260235": "2026-10-16",
    "311260238": "2026-10-19",
    "319260298": "2026-10-16",
    "330260133": "2026-10-16",
    "334260025": "2026-10-16",
+   "338260106": "2026-10-19",
+   "343260128": "2026-10-19",
    "358260150": "2026-10-16",
    "359260200": "2026-10-15",
    "359260201": "2026-10-16",
@@ -324,6 +365,7 @@
    "359260218": "2026-10-19",
    "359260219": "2026-10-19",
    "359260220": "2026-10-19",
+   "368260093": "2026-10-19",
    "369260114": "2026-10-15",
    "369260115": "2026-10-15",
    "369260116": "2026-10-15",
@@ -332,16 +374,21 @@
    "369260119": "2026-10-15",
    "369260122": "2026-10-16",
    "369260124": "2026-10-19",
+   "369260125": "2026-10-19",
+   "377260049": "2026-10-19",
    "395260130": "2026-10-16",
    "399260048": "2026-10-15",
    "399260049": "2026-10-17",
    "407260022": "2026-10-16",
    "410260123": "2026-10-15",
+   "413260081": "2026-10-19",
+   "414260201": "2026-10-19",
    "420260117": "2026-10-15",
    "432260123": "2026-10-16",
    "432260124": "2026-10-16",
    "464260018": "2026-10-15",
-   "464260019": "2026-10-15"
+   "464260019": "2026-10-15",
+   "465260252": "2026-10-19"
   },
   "imovirtual": {
    "19285119": "2026-10-15",
@@ -430,6 +477,7 @@
    "19312891": "2026-10-17",
    "19313036": "2026-10-17",
    "19313921": "2026-10-19",
+   "19314714": "2026-10-19",
    "9000062225": "2026-10-15",
    "9000062226": "2026-10-16",
    "9000062227": "2026-10-16",
@@ -441,7 +489,8 @@
    "9000062233": "2026-10-18",
    "9000062234": "2026-10-18",
    "9000062235": "2026-10-19",
-   "9000062236": "2026-10-19"
+   "9000062236": "2026-10-19",
+   "9000062237": "2026-10-19"
   },
   "remax": {
    "120251435-10": "2026-10-15",
@@ -453,6 +502,7 @@
    "120871193-19": "2026-10-19",
    "120941040-80": "2026-10-17",
    "120941164-22": "2026-10-15",
+   "120941170-29": "2026-10-19",
    "121511380-195": "2026-10-16",
    "122071020-2781": "2026-10-17",
    "122591142-161": "2026-10-19",
@@ -476,12 +526,15 @@
    "123881229-1": "2026-10-19",
    "123891117-126": "2026-10-16",
    "123941066-234": "2026-10-16",
+   "123981001-210": "2026-10-19",
    "124071208-307": "2026-10-16",
    "124811007-161": "2026-10-17",
    "124911005-1946": "2026-10-15",
    "125041040-66": "2026-10-16",
    "125061223-7": "2026-10-15",
    "125471373-20": "2026-10-18",
+   "125501051-8": "2026-10-19",
+   "125501051-9": "2026-10-19",
    "125551038-28": "2026-10-16",
    "125681082-165": "2026-10-16",
    "126021143-91": "2026-10-15",
@@ -522,7 +575,10 @@
    "2318452": "2026-10-17",
    "2319277": "2026-10-17",
    "2319374": "2026-10-17",
-   "2319376": "2026-10-17"
+   "2319376": "2026-10-17",
+   "2320072": "2026-10-19",
+   "2320263": "2026-10-19",
+   "2320619": "2026-10-19"
   }
  }
 }

@@ -2,7 +2,7 @@
  "arrancou": true,
  "health": {
   "casasapo": {
-   "falhas": 5,
+   "falhas": 0,
    "ultimo_alerta": ""
   },
   "century21": {
@@ -38,15 +38,15 @@
    "ultimo_alerta": ""
   },
   "olx": {
-   "falhas": 42,
-   "ultimo_alerta": "2026-10-21"
+   "falhas": 43,
+   "ultimo_alerta": "2026-10-22"
   },
   "remax": {
    "falhas": 0,
    "ultimo_alerta": ""
   },
   "supercasa": {
-   "falhas": 3,
+   "falhas": 0,
    "ultimo_alerta": ""
   },
   "trovit": {
@@ -61,6 +61,7 @@
  "seen": {
   "casasapo": {
    "comprar-andar-de-moradia-t2-vila-nova-de-gaia-canidelo-2f32c348-cbe7-11f1-9c13-060000000051": "2026-10-19",
+   "comprar-apartamento-t1-vila-nova-de-gaia-arcozelo-e0b04d64-cd61-11f1-b6e5-060000000058": "2026-10-22",
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-1c04b7fd-c8af-11f1-90a1-060000000056": "2026-10-16",
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-26e67dd2-c8b0-11f1-90a1-060000000056": "2026-10-16",
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-43999cd1-c8a8-11f1-90a1-060000000056": "2026-10-16",
@@ -80,20 +81,31 @@
    "comprar-apartamento-t1-vila-nova-de-gaia-canidelo-ffd2baf0-c8ad-11f1-90a1-060000000056": "2026-10-16",
    "comprar-apartamento-t1-vila-nova-de-gaia-gulpilhares-13d23678-cc67-11f1-9aaf-060000000054": "2026-10-20",
    "comprar-apartamento-t1-vila-nova-de-gaia-gulpilhares-aad424b6-c923-11f1-9aaf-060000000054": "2026-10-16",
+   "comprar-apartamento-t1-vila-nova-de-gaia-gulpilhares-ad89ad88-cd34-11f1-b6e5-060000000058": "2026-10-22",
    "comprar-apartamento-t1-vila-nova-de-gaia-madalena-0227672a-c9b7-11f1-9c13-060000000051": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-mafamude-6564b10b-ccb2-11f1-9aaf-060000000054": "2026-10-20",
    "comprar-apartamento-t1-vila-nova-de-gaia-mafamude-c36e7625-cc95-11f1-b6e5-060000000058": "2026-10-20",
+   "comprar-apartamento-t1-vila-nova-de-gaia-oliveira-do-douro-14fde8e3-cd11-11f1-bc59-060000000052": "2026-10-22",
+   "comprar-apartamento-t1-vila-nova-de-gaia-sandim-0c8ff7d0-cda6-11f1-9c13-060000000051": "2026-10-22",
    "comprar-apartamento-t1-vila-nova-de-gaia-santa-marinha-125d8997-c9f5-11f1-9a8d-060000000057": "2026-10-17",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-11851225-cd3c-11f1-b6e5-060000000058": "2026-10-22",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-1a55ef93-cd14-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-2da57e65-c9f5-11f1-9aaf-060000000054": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-5245d2b0-c9f5-11f1-9aaf-060000000054": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-a7664887-ca10-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-d71a9346-cc22-11f1-9a8d-060000000057": "2026-10-20",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-e3dfe3dc-ca2b-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-f9466760-cbbe-11f1-bc59-060000000052": "2026-10-19",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-fd486d06-cd13-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-fdb40a1b-cbbf-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-167d9d29-cca1-11f1-9aaf-060000000054": "2026-10-20",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-1692b31b-cca1-11f1-9aaf-060000000054": "2026-10-20",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-31bc2f73-cd5b-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-3cdcbcd6-cd5a-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-6267b2c9-cd60-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t1-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-b3ab650f-cd5e-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-t1-vila-nova-de-gaia-vilar-do-paraiso-6109647a-cc7f-11f1-9aaf-060000000054": "2026-10-20",
+   "comprar-apartamento-t2-vila-nova-de-gaia-arcozelo-fa607adb-cd61-11f1-b6e5-060000000058": "2026-10-22",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-5975c1a1-ccdb-11f1-9c13-060000000051": "2026-10-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-gulpilhares-8967510a-ca0b-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-mafamude-39d8270d-cc96-11f1-b6e5-060000000058": "2026-10-20",
@@ -105,7 +117,10 @@
    "comprar-apartamento-t2-vila-nova-de-gaia-santa-marinha-24cd71f5-cc9f-11f1-9aaf-060000000054": "2026-10-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-valadares-e99ff719-ccdd-11f1-9c13-060000000051": "2026-10-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-valadares-ff90f0f3-ccdd-11f1-9c13-060000000051": "2026-10-20",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-0158e3c5-cd14-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-2c49d684-cd14-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-40320ab4-ca2c-11f1-bc59-060000000052": "2026-10-17",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-442c6b2b-cd14-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-49d2456a-ca19-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-4ca5783c-ca2c-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-5052b904-cbd7-11f1-bc59-060000000052": "2026-10-19",
@@ -123,6 +138,14 @@
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f10250e6-ca2b-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f1a29396-cbbf-11f1-bc59-060000000052": "2026-10-19",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f3406fee-cbbd-11f1-bc59-060000000052": "2026-10-19",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-f3a1ee3a-cd14-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-0c9eb36f-cd5c-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-26e01770-cd59-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-37f955cd-cd56-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-4e389f9a-cd5e-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-888d41b8-cd58-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-e9b9fcb6-cd57-11f1-90a1-060000000056": "2026-10-22",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-monte-virgem-f9370077-cd5f-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-do-paraiso-81d83fcd-c923-11f1-9aaf-060000000054": "2026-10-16",
    "comprar-apartamento-t3-vila-nova-de-gaia-arcozelo-01057a0a-ca2c-11f1-b6e5-060000000058": "2026-10-17",
    "comprar-apartamento-t3-vila-nova-de-gaia-arcozelo-a47bbacb-ae49-423a-a8e5-3f5e1aba839e": "2026-10-20",
@@ -147,10 +170,12 @@
    "comprar-apartamento-t4-vila-nova-de-gaia-gulpilhares-c8e827ed-c9f0-11f1-9a8d-060000000057": "2026-10-17",
    "comprar-apartamento-t4-vila-nova-de-gaia-madalena-5ea121b5-c942-11f1-9aaf-060000000054": "2026-10-16",
    "comprar-apartamento-t4-vila-nova-de-gaia-madalena-73574132-c8a8-11f1-9a8d-060000000057": "2026-10-16",
+   "comprar-apartamento-t4-vila-nova-de-gaia-vilar-do-paraiso-a4e69d9b-cd5a-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-vila-nova-de-gaia-canidelo-9721fce2-cc90-11f1-9a8d-060000000057": "2026-10-20",
    "comprar-moradia-geminada-t3-vila-nova-de-gaia-arcozelo-b608cf96-cba3-11f1-b6e5-060000000058": "2026-10-19",
    "comprar-moradia-geminada-t3-vila-nova-de-gaia-madalena-f822a620-cb24-11f1-bc59-060000000052": "2026-10-19",
    "comprar-moradia-geminada-vila-nova-de-gaia-canidelo-6f015cff-6ef4-4870-b72d-fbab52b1fa44": "2026-10-16",
+   "comprar-moradia-t0-vila-nova-de-gaia-avintes-a66b967b-cd25-11f1-9c13-060000000051": "2026-10-22",
    "comprar-moradia-t2-vila-nova-de-gaia-canidelo-db689c31-c9f0-11f1-9a8d-060000000057": "2026-10-17",
    "comprar-moradia-t3-vila-nova-de-gaia-grijo-f96d7537-cbdb-11f1-9aaf-060000000054": "2026-10-19",
    "comprar-moradia-t3-vila-nova-de-gaia-serzedo-8c678b64-cc4a-11f1-9aaf-060000000054": "2026-10-20",
@@ -187,6 +212,7 @@
    "43808857": "2026-10-15",
    "43817377": "2026-10-16",
    "43817443": "2026-10-16",
+   "43848836": "2026-10-22",
    "44006809": "2026-10-18",
    "44049138": "2026-10-15",
    "44112241": "2026-10-15",
@@ -674,7 +700,8 @@
    "9000062240": "2026-10-20",
    "9000062241": "2026-10-21",
    "9000062242": "2026-10-21",
-   "9000062243": "2026-10-21"
+   "9000062243": "2026-10-21",
+   "9000062244": "2026-10-22"
   },
   "remax": {
    "120251435-10": "2026-10-15",
@@ -799,7 +826,8 @@
    "2321053": "2026-10-20",
    "2321180": "2026-10-20",
    "2321619": "2026-10-20",
-   "2321832": "2026-10-20"
+   "2321832": "2026-10-20",
+   "2322630": "2026-10-22"
   }
  }
 }

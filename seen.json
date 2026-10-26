@@ -2,7 +2,7 @@
  "arrancou": true,
  "health": {
   "casasapo": {
-   "falhas": 3,
+   "falhas": 0,
    "ultimo_alerta": "2026-10-25"
   },
   "century21": {
@@ -38,7 +38,7 @@
    "ultimo_alerta": ""
   },
   "olx": {
-   "falhas": 69,
+   "falhas": 70,
    "ultimo_alerta": "2026-10-26"
   },
   "remax": {
@@ -46,7 +46,7 @@
    "ultimo_alerta": ""
   },
   "supercasa": {
-   "falhas": 3,
+   "falhas": 0,
    "ultimo_alerta": ""
   },
   "trovit": {
@@ -205,6 +205,7 @@
    "comprar-apartamento-t4-vila-nova-de-gaia-vilar-do-paraiso-a4e69d9b-cd5a-11f1-90a1-060000000056": "2026-10-22",
    "comprar-apartamento-vila-nova-de-gaia-canidelo-9721fce2-cc90-11f1-9a8d-060000000057": "2026-10-20",
    "comprar-apartamento-vila-nova-de-gaia-mafamude-9e009e5b-ce27-11f1-90a1-060000000056": "2026-10-23",
+   "comprar-apartamento-vila-nova-de-gaia-santa-marinha-cd6b3286-6e86-401c-9608-049bfe0290f6": "2026-10-26",
    "comprar-moradia-em-banda-t3-vila-nova-de-gaia-arcozelo-a392e985-d03f-11f1-90a1-060000000056": "2026-10-25",
    "comprar-moradia-geminada-t3-vila-nova-de-gaia-arcozelo-b608cf96-cba3-11f1-b6e5-060000000058": "2026-10-19",
    "comprar-moradia-geminada-t3-vila-nova-de-gaia-madalena-f822a620-cb24-11f1-bc59-060000000052": "2026-10-19",

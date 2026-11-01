@@ -2,8 +2,8 @@
  "arrancou": true,
  "health": {
   "casasapo": {
-   "falhas": 7,
-   "ultimo_alerta": "2026-10-25"
+   "falhas": 8,
+   "ultimo_alerta": "2026-11-01"
   },
   "century21": {
    "falhas": 1,
@@ -38,7 +38,7 @@
    "ultimo_alerta": ""
   },
   "olx": {
-   "falhas": 98,
+   "falhas": 99,
    "ultimo_alerta": "2026-11-01"
   },
   "remax": {
@@ -46,8 +46,8 @@
    "ultimo_alerta": ""
   },
   "supercasa": {
-   "falhas": 7,
-   "ultimo_alerta": ""
+   "falhas": 8,
+   "ultimo_alerta": "2026-11-01"
   },
   "trovit": {
    "falhas": 1,

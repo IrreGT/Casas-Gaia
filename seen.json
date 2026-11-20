@@ -2,7 +2,7 @@
  "arrancou": true,
  "health": {
   "casasapo": {
-   "falhas": 5,
+   "falhas": 0,
    "ultimo_alerta": "2026-11-18"
   },
   "century21": {
@@ -22,7 +22,7 @@
    "ultimo_alerta": ""
   },
   "era": {
-   "falhas": 61,
+   "falhas": 62,
    "ultimo_alerta": "2026-11-20"
   },
   "iad": {
@@ -38,7 +38,7 @@
    "ultimo_alerta": ""
   },
   "olx": {
-   "falhas": 170,
+   "falhas": 171,
    "ultimo_alerta": "2026-11-20"
   },
   "remax": {
@@ -46,7 +46,7 @@
    "ultimo_alerta": ""
   },
   "supercasa": {
-   "falhas": 5,
+   "falhas": 6,
    "ultimo_alerta": "2026-11-08"
   },
   "trovit": {
@@ -60,6 +60,7 @@
  },
  "seen": {
   "casasapo": {
+   "comprar-alugar-apartamento-t2-vila-nova-de-gaia-sao-pedro-da-afurada-78e2d38f-e38c-11f1-9a8d-060000000057": "2026-11-20",
    "comprar-andar-de-moradia-t2-vila-nova-de-gaia-canidelo-2f32c348-cbe7-11f1-9c13-060000000051": "2026-10-19",
    "comprar-andar-de-moradia-t3-vila-nova-de-gaia-canelas-rechousa-0c0e70e8-df4f-11f1-9c13-060000000051": "2026-11-15",
    "comprar-andar-de-moradia-t3-vila-nova-de-gaia-gulpilhares-a7cff64c-108d-438d-b356-b8a349824fc1": "2026-10-23",
@@ -126,8 +127,11 @@
    "comprar-apartamento-t1-vila-nova-de-gaia-santa-marinha-55b7d155-cf74-11f1-9a8d-060000000057": "2026-10-25",
    "comprar-apartamento-t1-vila-nova-de-gaia-santa-marinha-63adade6-cef5-11f1-9aaf-060000000054": "2026-10-23",
    "comprar-apartamento-t1-vila-nova-de-gaia-santa-marinha-68600307-ddc8-11f1-9a8d-060000000057": "2026-11-12",
+   "comprar-apartamento-t1-vila-nova-de-gaia-santa-marinha-a7a70a48-e379-11f1-b1cf-060000000058": "2026-11-20",
    "comprar-apartamento-t1-vila-nova-de-gaia-santa-marinha-ecb0175f-def7-11f1-9c13-060000000051": "2026-11-15",
    "comprar-apartamento-t1-vila-nova-de-gaia-sao-felix-da-marinha-3ceff0d2-db81-11f1-9c13-060000000051": "2026-11-10",
+   "comprar-apartamento-t1-vila-nova-de-gaia-sao-felix-da-marinha-476acbdd-e376-11f1-b1cf-060000000058": "2026-11-20",
+   "comprar-apartamento-t1-vila-nova-de-gaia-sao-felix-da-marinha-d15c6d29-e376-11f1-b1cf-060000000058": "2026-11-20",
    "comprar-apartamento-t1-vila-nova-de-gaia-sao-pedro-da-afurada-173cea37-d19e-11f1-9aaf-060000000054": "2026-10-27",
    "comprar-apartamento-t1-vila-nova-de-gaia-serzedo-b4ce57b9-df2c-11f1-9a8d-060000000057": "2026-11-15",
    "comprar-apartamento-t1-vila-nova-de-gaia-valadares-84ea54fa-ddbc-11f1-b1cf-060000000058": "2026-11-12",
@@ -166,17 +170,21 @@
    "comprar-apartamento-t2-vila-nova-de-gaia-canelas-e41e3eaa-d77e-11f1-b6e5-060000000058": "2026-11-03",
    "comprar-apartamento-t2-vila-nova-de-gaia-canelas-rechousa-5fe24e94-d9cc-11f1-9aaf-060000000054": "2026-11-06",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-0789a1d2-d758-11f1-9aaf-060000000054": "2026-11-03",
+   "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-0eefd044-e34d-11f1-9aaf-060000000054": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-26dcfd83-d93c-11f1-bc59-060000000052": "2026-11-06",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-273aa1fc-d77d-11f1-b6e5-060000000058": "2026-11-03",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-2b59260f-df86-11f1-9aaf-060000000054": "2026-11-15",
+   "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-3367bc66-e2a9-11f1-90a1-060000000056": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-3d29c244-e278-11f1-bc59-060000000052": "2026-11-18",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-5975c1a1-ccdb-11f1-9c13-060000000051": "2026-10-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-6139883a-e273-11f1-9aaf-060000000054": "2026-11-18",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-6438362c-cec4-11f1-b6e5-060000000058": "2026-10-23",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-65b648f8-d93c-11f1-bc59-060000000052": "2026-11-06",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-6bc923f5-dff6-11f1-9aaf-060000000054": "2026-11-15",
+   "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-73bd4da6-e2a8-11f1-90a1-060000000056": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-7cad88d9-ced2-11f1-b6e5-060000000058": "2026-10-23",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-7fff6af0-d780-11f1-b6e5-060000000058": "2026-11-03",
+   "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-8c3b3d99-e2a9-11f1-90a1-060000000056": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-a8fb17da-d5be-11f1-9aaf-060000000054": "2026-11-01",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-a9538816-d77e-11f1-b6e5-060000000058": "2026-11-03",
    "comprar-apartamento-t2-vila-nova-de-gaia-canidelo-caf561c9-cece-11f1-b6e5-060000000058": "2026-10-23",
@@ -234,8 +242,11 @@
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-6bec54d8-dddb-11f1-b1cf-060000000058": "2026-11-12",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-766f278f-cdff-11f1-9aaf-060000000054": "2026-10-22",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-815c80ff-ddeb-11f1-b1cf-060000000058": "2026-11-12",
+   "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-9592c053-e375-11f1-b1cf-060000000058": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-a9c08f57-d93e-11f1-b1cf-060000000058": "2026-11-06",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-b6fd9a75-ce23-11f1-b6e5-060000000058": "2026-10-23",
+   "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-be979134-e372-11f1-b1cf-060000000058": "2026-11-20",
+   "comprar-apartamento-t2-vila-nova-de-gaia-sao-felix-da-marinha-fd2760f3-e374-11f1-b1cf-060000000058": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-pedro-da-afurada-29478750-d5c3-11f1-9aaf-060000000054": "2026-11-01",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-pedro-da-afurada-7cc5bea8-d5c2-11f1-9aaf-060000000054": "2026-11-01",
    "comprar-apartamento-t2-vila-nova-de-gaia-sao-pedro-da-afurada-a924490c-d5c3-11f1-9aaf-060000000054": "2026-11-01",
@@ -263,6 +274,7 @@
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-a4052aa9-d6e3-11f1-9c13-060000000051": "2026-11-03",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b0a66cde-ca10-11f1-bc59-060000000052": "2026-10-17",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b3c7c553-d6d2-11f1-9c13-060000000051": "2026-11-03",
+   "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b5f0add7-e365-11f1-9aaf-060000000054": "2026-11-20",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b8230aff-d450-11f1-9c13-060000000051": "2026-10-30",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b85a37a8-cf23-11f1-b6e5-060000000058": "2026-10-27",
    "comprar-apartamento-t2-vila-nova-de-gaia-vilar-de-andorinho-b99f1ce6-cf23-11f1-b6e5-060000000058": "2026-10-27",
@@ -317,6 +329,7 @@
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-5a95fedd-cc11-11f1-9a8d-060000000057": "2026-10-20",
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-745f20f9-d2ce-11f1-9a8d-060000000057": "2026-10-28",
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-78cf8422-69b7-41b0-9efd-db07298467d5": "2026-10-23",
+   "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-7b3e249b-e3c1-11f1-9aaf-060000000054": "2026-11-20",
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-7d50c1c1-e2f8-11f1-9aaf-060000000054": "2026-11-18",
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-802adeaa-d2cc-11f1-9a8d-060000000057": "2026-10-28",
    "comprar-apartamento-t3-vila-nova-de-gaia-canidelo-80ee7718-cc11-11f1-9a8d-060000000057": "2026-10-20",
@@ -337,6 +350,7 @@
    "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-662d590d-cbb3-11f1-9aaf-060000000054": "2026-10-19",
    "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-68575e20-e2aa-11f1-bc59-060000000052": "2026-11-18",
    "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-6ddd9ab0-d5c5-11f1-90a1-060000000056": "2026-11-01",
+   "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-73f9e882-e4ac-11f1-9aaf-060000000054": "2026-11-20",
    "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-bf26015b-d3c6-11f1-9aaf-060000000054": "2026-10-30",
    "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-d7625bd6-da77-11f1-9aaf-060000000054": "2026-11-10",
    "comprar-apartamento-t3-vila-nova-de-gaia-mafamude-ddfbe37f-dff6-11f1-9a8d-060000000057": "2026-11-15",
@@ -365,6 +379,7 @@
    "comprar-apartamento-t3-vila-nova-de-gaia-santa-marinha-c166887f-d6b6-11f1-90a1-060000000056": "2026-11-03",
    "comprar-apartamento-t3-vila-nova-de-gaia-santa-marinha-c652f3da-d6b7-11f1-90a1-060000000056": "2026-11-03",
    "comprar-apartamento-t3-vila-nova-de-gaia-santa-marinha-cecd7392-d6b8-11f1-90a1-060000000056": "2026-11-03",
+   "comprar-apartamento-t3-vila-nova-de-gaia-sao-felix-da-marinha-18a0b4cb-e368-11f1-b1cf-060000000058": "2026-11-20",
    "comprar-apartamento-t3-vila-nova-de-gaia-sao-felix-da-marinha-7e6f43e6-d9cb-11f1-9aaf-060000000054": "2026-11-06",
    "comprar-apartamento-t3-vila-nova-de-gaia-sao-pedro-da-afurada-0c30d818-d445-11f1-9aaf-060000000054": "2026-10-30",
    "comprar-apartamento-t3-vila-nova-de-gaia-sao-pedro-da-afurada-1cb2a91c-dd11-11f1-b1cf-060000000058": "2026-11-10",
@@ -379,6 +394,7 @@
    "comprar-apartamento-t3-vila-nova-de-gaia-vilar-de-andorinho-e59c403f-d450-11f1-9aaf-060000000054": "2026-10-30",
    "comprar-apartamento-t3-vila-nova-de-gaia-vilar-de-andorinho-f602139e-d450-11f1-9aaf-060000000054": "2026-10-30",
    "comprar-apartamento-t3-vila-nova-de-gaia-vilar-do-paraiso-66f823fe-d514-11f1-9aaf-060000000054": "2026-11-01",
+   "comprar-apartamento-t4-vila-nova-de-gaia-arcozelo-94f730ee-e35b-11f1-bc59-060000000052": "2026-11-20",
    "comprar-apartamento-t4-vila-nova-de-gaia-canidelo-18d87194-cc11-11f1-9a8d-060000000057": "2026-10-20",
    "comprar-apartamento-t4-vila-nova-de-gaia-canidelo-24f001a8-d2cf-11f1-9a8d-060000000057": "2026-10-28",
    "comprar-apartamento-t4-vila-nova-de-gaia-canidelo-2f95b48a-cc11-11f1-9a8d-060000000057": "2026-10-20",
@@ -437,6 +453,7 @@
    "comprar-moradia-t2-vila-nova-de-gaia-santa-marinha-08cadfb6-d5c2-11f1-9aaf-060000000054": "2026-11-01",
    "comprar-moradia-t2-vila-nova-de-gaia-vilar-do-paraiso-136744a7-dc6a-11f1-bc59-060000000052": "2026-11-10",
    "comprar-moradia-t2-vila-nova-de-gaia-vilar-do-paraiso-58a68f29-dc67-11f1-bc59-060000000052": "2026-11-10",
+   "comprar-moradia-t3-vila-nova-de-gaia-arcozelo-6179ab36-e427-11f1-9aaf-060000000054": "2026-11-20",
    "comprar-moradia-t3-vila-nova-de-gaia-canidelo-b3416960-d483-11f1-9aaf-060000000054": "2026-10-30",
    "comprar-moradia-t3-vila-nova-de-gaia-grijo-f96d7537-cbdb-11f1-9aaf-060000000054": "2026-10-19",
    "comprar-moradia-t3-vila-nova-de-gaia-mafamude-62fbe333-dd05-11f1-9aaf-060000000054": "2026-11-10",
@@ -467,6 +484,7 @@
    "comprar-moradia-t4-vila-nova-de-gaia-santa-marinha-507fab9d-d514-11f1-9aaf-060000000054": "2026-11-01",
    "comprar-moradia-t4-vila-nova-de-gaia-sao-felix-da-marinha-99fe8b93-d6e8-11f1-9c13-060000000051": "2026-11-03",
    "comprar-moradia-t4-vila-nova-de-gaia-vilar-de-andorinho-02585f4d-d8e3-11f1-9aaf-060000000054": "2026-11-06",
+   "comprar-moradia-t4-vila-nova-de-gaia-vilar-de-andorinho-22768a97-e417-11f1-b1cf-060000000058": "2026-11-20",
    "comprar-moradia-t4-vila-nova-de-gaia-vilar-de-andorinho-433fc741-dc22-11f1-9c13-060000000051": "2026-11-10",
    "comprar-moradia-t4-vila-nova-de-gaia-vilar-de-andorinho-4536623f-d943-11f1-bc59-060000000052": "2026-11-06",
    "comprar-moradia-t4-vila-nova-de-gaia-vilar-de-andorinho-6b5d86cb-d978-11f1-9c13-060000000051": "2026-11-06",
@@ -510,6 +528,7 @@
    "38624049": "2026-11-09",
    "38924943": "2026-10-17",
    "38935679": "2026-11-13",
+   "38968004": "2026-11-20",
    "39088027": "2026-11-14",
    "39445764": "2026-11-15",
    "39504733": "2026-11-11",
@@ -868,6 +887,7 @@
    "44818954": "2026-10-31",
    "44818959": "2026-10-31",
    "44819641": "2026-10-22",
+   "44821026": "2026-11-20",
    "44821348": "2026-11-08",
    "44825766": "2026-11-08",
    "44832354": "2026-11-17",
@@ -895,6 +915,7 @@
    "44861471": "2026-10-22",
    "44862239": "2026-10-26",
    "44863005": "2026-11-13",
+   "44865326": "2026-11-20",
    "44866922": "2026-10-22",
    "44870903": "2026-10-27",
    "44870904": "2026-10-27",
@@ -956,6 +977,7 @@
    "44921314": "2026-10-25",
    "44921654": "2026-10-15",
    "44921703": "2026-10-26",
+   "44922388": "2026-11-20",
    "44925628": "2026-10-28",
    "44925631": "2026-10-28",
    "44929253": "2026-11-14",
@@ -1277,6 +1299,7 @@
    "45146026": "2026-10-18",
    "45146226": "2026-11-19",
    "45146399": "2026-10-18",
+   "45146840": "2026-11-20",
    "45149730": "2026-10-28",
    "45149788": "2026-10-21",
    "45150446": "2026-10-21",
@@ -1397,6 +1420,7 @@
    "45171948": "2026-11-07",
    "45172321": "2026-11-12",
    "45173174": "2026-11-08",
+   "45173181": "2026-11-20",
    "45173863": "2026-11-01",
    "45174363": "2026-11-01",
    "45174612": "2026-11-14",
@@ -1604,6 +1628,7 @@
    "45383353": "2026-10-25",
    "45383904": "2026-11-18",
    "45384395": "2026-11-18",
+   "45384456": "2026-11-20",
    "45386009": "2026-10-26",
    "45386133": "2026-10-26",
    "45386280": "2026-11-07",
@@ -1634,6 +1659,7 @@
    "45397969": "2026-11-01",
    "45398342": "2026-11-01",
    "45398734": "2026-11-01",
+   "45398890": "2026-11-20",
    "45399372": "2026-11-02",
    "45400402": "2026-11-04",
    "45401112": "2026-11-02",
@@ -1897,6 +1923,7 @@
    "45516594": "2026-11-13",
    "45516827": "2026-11-14",
    "45519744": "2026-11-15",
+   "45519813": "2026-11-20",
    "45519965": "2026-11-16",
    "45519969": "2026-11-16",
    "45520770": "2026-11-16",
@@ -1918,7 +1945,8 @@
    "45529968": "2026-11-19",
    "45530063": "2026-11-19",
    "45530767": "2026-11-19",
-   "45531003": "2026-11-20"
+   "45531003": "2026-11-20",
+   "45531407": "2026-11-20"
   },
   "era": {
    "011260092": "2026-10-27",
@@ -2694,7 +2722,8 @@
    "9000062328": "2026-11-19",
    "9000062329": "2026-11-19",
    "9000062330": "2026-11-19",
-   "9000062331": "2026-11-20"
+   "9000062331": "2026-11-20",
+   "9000062332": "2026-11-20"
   },
   "remax": {
    "120121006-2776": "2026-10-22",
@@ -2802,6 +2831,7 @@
    "122071435-22": "2026-11-08",
    "122071471-1": "2026-11-13",
    "122071471-2": "2026-11-13",
+   "122081347-61": "2026-11-20",
    "122081442-24": "2026-11-13",
    "122181560-4": "2026-10-20",
    "122211058-965": "2026-11-04",
@@ -2865,6 +2895,8 @@
    "123561046-521": "2026-11-04",
    "123571060-589": "2026-10-28",
    "123571260-161": "2026-11-16",
+   "123571263-90": "2026-11-20",
+   "123571313-75": "2026-11-20",
    "123741094-113": "2026-10-29",
    "123751432-63": "2026-10-29",
    "123761152-86": "2026-11-06",
